@@ -46,19 +46,14 @@ header::after {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: 0;
     float: center;
 }
 
-.nav li {
+.nav__ul li {
     display: inline-block;
     position: relative;
-    padding: 5px;
-    padding-left: 0px;
-    padding-bottom: 7px;
-    padding-right: 1.5%;
-    padding-top: 8px;
-    margin-left: 0px;
-    text-align: center;
+    padding: 12px 0px 7px 0px;
     border-left: solid 1px #BABABA;
 }
 
@@ -66,213 +61,210 @@ header::after {
     color: #3F3F42;
     font-size: 13px;
     font-weight: 500;
+    padding: 0px 30px 0px 30px;
     text-decoration: none;
     text-align: center;
-    padding-left: 20px;
 }
 
 .fas fa-user-circle {
     margin-right: 5px;
 }
 
-#userheight {
-    margin-right: 6%;
+#user a {
+    padding-right: 100px;
 }
 
-.user p {
-    display: inline-block;
-    color: #3F3F42;
-    font-size: 13px;
-    font-weight: 500;
-    text-decoration: none;
-    padding-left: 5px;
-}
-
-.user i {
+#user i {
     display: inline-block;
     font-size: 15px;
     padding-right: 5px;
 }
 
-.search p {
+#search p {
     display: inline-block;
     color: #3F3F42;
     font-size: 13px;
     font-weight: 500;
     text-decoration: none;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
-.search {
+#search {
     border-right: solid 1px #BABABA;
 }
 
-.search i {
+#search i {
     font-size: 13px;
     padding-right: 5px;
 }
 
-.search a {
-    padding-left: 10px;
+#search a {
+    padding-right: 10px;
 }
 
-/*HOVER EFFECTS*/
 
-.user a::after {
+
+/*HOVER EFFECTS-----------------------------------------------------*/
+
+.nav__ul li::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #006def;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.user a:hover::after {
-    width: 228%;
+.nav__ul li:hover::after {
+    width: auto;
 }
 
-.home a::after {
+
+#home::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
-    background-color: #BB1919;
-    position: relative;
+    background-color: #007BC7;
+    position: inherit;
     top: 7px;
 }
 
-.home a:hover::after {
-    width: 150%;
+#home:hover::after {
+    width: auto;
 }
 
-.about a::after {
+#about::after {
     content: "";
     display: block;
-    height: 3px;
-    width: 0%;
-    background-color: #FFD230;
-    position: relative;
-    top: 7px;
-}
-
-.about a:hover::after {
-    width: 150%;
-}
-
-.news a::after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 0%;
-    background-color: #BB1919;
-    position: relative;
-    top: 7px;
-}
-
-.news a:hover::after {
-    width: 150%;
-}
-
-.sport a::after {
-    content: "";
-    display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #FFD230;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.sport a:hover::after {
-    width: 152%;
+#about:hover::after {
+    width: auto;
 }
 
-.reel a::after {
+#news::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
+    width: 0%;
+    background-color: #BB1919;
+    position: inherit;
+    top: 7px;
+}
+
+#news:hover::after {
+    width: auto;
+}
+
+
+#sport::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0%;
+    background-color: #FFD230;
+    position: inherit;
+    top: 7px;
+}
+
+#sport:hover::after {
+    width: auto;
+}
+
+#reel::after {
+    content: "";
+    display: block;
+    height: 4px;
     width: 0%;
     background-color: #006def;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.reel a:hover::after {
-    width: 157%;
+#reel:hover::after {
+    width: auto;
 }
 
-.worklife a::after {
+#worklife::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #0052A1;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.worklife a:hover::after {
-    width: 140%;
+#worklife:hover::after {
+    width: auto;
 }
 
-.travel a::after {
+#travel::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #589E50;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.travel a:hover::after {
-    width: 148%;
+#travel:hover::after {
+    width: auto;
 }
 
-.future a::after {
+#future::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #482878;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.future a:hover::after {
-    width: 148%;
+#future:hover::after {
+    width: auto;
 }
 
-.more a::after {
+#more::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #3F3F42;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.more a:hover::after {
-    width: 155%;
+#more:hover::after {
+    width: auto;
 }
 
-.search a::after {
+#search::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 4px;
     width: 0%;
     background-color: #3F3F42;
-    position: relative;
+    position: inherit;
     top: 7px;
 }
 
-.search a:hover::after {
-    width: 130%;
+#search:hover::after {
+    width: auto;
 }
 
-/*SECOND HEADER*/
+/**/
+
+/*SECOND HEADER-----------------------------------------------------*/
 
 #second-header {
     background-color: #B80000;
@@ -291,11 +283,14 @@ header::after {
     padding: 13px 0px;
 }
 
-/*THIRD HEADER*/
+
+
+/*THIRD HEADER-----------------------------------------------------*/
 
 #third-header {
     background-color: #B80000;
     float: center;
+    border: none;
 }
 
 .container3 {
@@ -304,15 +299,9 @@ header::after {
     float: unset;
 }
 
-#third-header::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #nav2 {
     float: right;
-    width: 101.5%;
+    width: 100.7%;
 
 }
 
@@ -321,12 +310,13 @@ header::after {
     padding: 0;
     list-style: none;
     float: center;
+    font-size: 0;
 }
 
 .nav__ul2 li {
     display: inline-block;
     position: relative;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 5px 0px;
     text-align: center;
 }
 
@@ -336,7 +326,7 @@ header::after {
     text-decoration: none;
     display: inline-block;
     position: relative;
-    padding: 0px 0px 0px 10px;
+    padding: 4px 10px 0px 10px;
     text-align: center;
     border-left: solid 1px #BABABA;
 }
@@ -344,13 +334,34 @@ header::after {
 #home2 a {
     border: none;
 }
+
+.more2 a {
+    border:none !important;
+}
+
+#nav2 .more2 {
+    border-left: solid 1px #BABABA;
+    float: right;
+    padding-right: 10px;
+}
     
 
 
+/*HOVER EFFECTS-----------------------------------------------------*/
 
+.nav__ul2 li::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #fff;
+    position:inherit;
+    top: 5px;
+}
 
-
-
+.nav__ul2 li:hover::after {
+    width: auto;
+}
 
 
 
