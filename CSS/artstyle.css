@@ -45,7 +45,7 @@ aside {
   font-size: 14px;
 }
 
-/*HOVER EFFECTS ASIDE-----------------------------------------------------*/
+/*HOVER EFFECTS ASIDE------------------------------------------------*/
 
 .aside-container a:hover h4{
   color: #b80000;
@@ -130,11 +130,6 @@ aside {
   text-transform: uppercase;
 }
 
-.article-container p {
-  margin-top: 2%;
-  width: 80%;
-}
-
 .article-container strong {
   margin-top: 1%;
   display: block;
@@ -143,6 +138,25 @@ aside {
   width: 80%;
 }
 
+.article-container p {
+  margin-top: 15px;
+  width: 80%;
+}
+
+.article-container a {
+  color: #696969;
+  font-weight: bold;
+}
+
+/*HOVER EFFECTS ARTICLE LINKS----------------------------------------*/
+
+.article-container a:hover {
+  color: #b80000;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------*/
+
 .article-container h2 {
   margin-top: 3%;
   width: 70%;
@@ -150,7 +164,18 @@ aside {
   color: #3f3f42;
 }
 
-#reporters {
+.article-container ul {
+  list-style-position: inside;
+  position: relative;
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+.article-container li {
+  margin: 15px 0 0 0;
+}
+
+.reporters {
   font-style: italic;
 }
 
@@ -227,13 +252,14 @@ aside {
 .related-topics a:hover {
   color: #fff;
   background-color: #b80000;
+  text-decoration: none;
 }
 
 /*-------------------------------------------------------------------*/
 
 .more-news h4 a {
   display: inline-block;
-  margin: 23px 0 0 0;
+  margin: 23px 5px 0 0;
   font-size: 18px;
   color: #3f3f42;
   text-decoration: none;
