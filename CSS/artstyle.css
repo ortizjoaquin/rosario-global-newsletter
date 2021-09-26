@@ -1,5 +1,5 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, serif;
   margin: 0px;
   padding: 0px;
 }
@@ -55,10 +55,9 @@ aside {
 /*-------------------------------------------------------------------*/
 
 .article-container {
-  width: 45%;
-  margin-top: 15px;
-  margin-left: 230px;
   float: left;
+  width: 45%;
+  margin: 15px 0 0 230px;
   /*background-color: aquamarine;*/
 }
 
@@ -86,11 +85,11 @@ aside {
 
 .share i {
   display: inline-block;
-  color: #f8f8f8;
-  background-color: #b80000;
   font-size: 20px;
   margin-top: 15px;
   padding: 15px 17px 15px 17px;
+  color: #f8f8f8;
+  background-color: #b80000;
 }
 
 /*HOVER EFFECTS-----------------------------------------------------*/
@@ -192,10 +191,9 @@ aside {
 
 .second-article-container {
   position: relative;
-  width: 45%;
-  margin-top: 1%;
-  margin-left: 12.3%;
   float: left;
+  width: 45%;
+  margin: 15px 0 0 230px;
   /*background-color: rgb(66, 13, 134);*/
 }
 
@@ -286,13 +284,150 @@ footer {
   background-color: #282828;
   color: #fff;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 20px;
   margin-top: 25px;
 }
 
-
 .footer-container {
   display: inline-block;
-  width: 45%;
+  width: 70%;
   margin-left: 230px;
 }
+
+.footer-container h5 {
+  font-size: 20px;
+}
+
+.footer-list-1 li {
+  display: inline-block;
+  position: relative;
+  padding: 12px 80px 7px 0px;
+  border: none;
+}
+
+.footer-list-1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-list-1 a i {
+  padding: 0 10px 0 0;
+  font-size: 20px;
+}
+
+/*HOVER EFFECTS-----------------------------------------------------*/
+
+.footer-list-1 a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------*/
+
+.footer-divider-1 {
+  display: block;
+  width: 100%;
+  float: left;
+  height: 1px;
+  background-color: #bababa;
+}
+
+.second-footer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.second-footer-container {
+  display: block;
+  margin-left: 230px;
+  background-color: #282828;
+}
+
+.second-footer-container ul li {
+  display: inline-block;
+  width: 15%;
+  list-style: none;
+  margin: 7px 0 0 0;
+}
+
+.second-footer-container ul li a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/*HOVER EFFECTS-----------------------------------------------------*/
+
+.second-footer-container ul a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------*/
+
+.third-footer {
+  margin: -4px 0 0 0;
+  padding: 0px;
+}
+
+.third-footer-container {
+  display: block;
+  margin-left: 230px;
+  width: 70%;
+  background-color: #282828;
+}
+
+.third-footer-container ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.third-footer-container ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0 80px 0 0;
+}
+
+/*HOVER EFFECTS-----------------------------------------------------*/
+
+.third-footer-container ul a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------*/
+
+.fourth-footer {
+  margin: -5px 0 0 0;
+  padding: 0px;
+  border-top: 6px solid #282828;
+}
+
+.fourth-footer-container {
+  display: block;
+  margin-left: 230px;
+  width: 70%;
+  background-color: #282828;
+}
+
+.fourth-footer-container p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.fourth-footer-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*HOVER EFFECTS-----------------------------------------------------*/
+
+.fourth-footer-container a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------*/
